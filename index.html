@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Jean-Philippe VONTHRON</title>
+  <meta name="description" content="Portfolio numérique de Jean-Philippe VONTHRON, étudiant en 2e année à l'EPITA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="#accueil">JP VONTHRON</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Parcours scolaire</a></li>
+        <li><a href="#experience">Expérience professionnelle</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#qualites">Qualités</a></li>
+        <li><a href="#voyages">Voyages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="theme-toggle" aria-label="Basculer le thème">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="section hero" aria-label="Accueil">
+      <div class="container">
+        <h1>Jean-Philippe VONTHRON</h1>
+        <p class="subtitle">Étudiant en 2ᵉ année à l'EPITA — passionné par l'informatique, le développement et l'innovation.</p>
+        <figure class="avatar reveal" aria-label="Photo de profil">
+          <img src="image.jpg" alt="Photo de Jean-Philippe VONTHRON">
+          <figcaption class="sr-only">Photo de Jean-Philippe VONTHRON</figcaption>
+        </figure>
+        <p class="about-brief reveal" style="margin-top: 12px;">
+          Bonjour, je suis Jean-Philippe VONTHRON, j'ai 19 ans et je suis élève à l’EPITA. 
+          J'ai une bonne capacité à communiquer, à travailler en équipe et a être autonome.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projets">Voir mes projets</a>
+          <a class="btn" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section" aria-label="Parcours scolaire">
+      <div class="container">
+        <h2>Parcours scolaire</h2>
+        <div class="timeline">
+          <article class="card reveal">
+            <h3>2017 – 2020 — Lycée Français de Tananarive (LFT), Madagascar</h3>
+            <p class="muted"><a href="https://www.egd.mg/" target="_blank" rel="noopener noreferrer">Site officiel — LFT</a></p>
+          </article>
+          <article class="card reveal">
+            <h3>2020-2021 — Collège Épiscopal Saint André</h3>
+            <p class="muted"><a href="https://st-andre.com/" target="_blank" rel="noopener noreferrer">Site officiel — Collège Saint André</a></p>
+          </article>
+          <article class="card reveal">
+            <h3>2021 – 2024 — Lycée Le Ferradou, Blagnac</h3>
+            <p class="muted"><a href="https://www.leferradou.fr/" target="_blank" rel="noopener noreferrer">Site officiel — Lycée Le Ferradou</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section" aria-label="Projets">
+      <div class="container">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+          <article class="card reveal">
+            <h3>Jeu en Réalité Augmentée (AR)</h3>
+            <p>Conception d’un jeu en réalité augmentée : détection de surface, placement d’objets 3D interactifs et mécaniques de jeu immersives.</p>
+            <ul class="tags">
+              <li>AR</li><li>Réalité augmentée</li><li>3D</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Ferracup (Fortnite)</h3>
+            <p>Organisation du tournoi Ferracup sur le jeu Fortnite : coordination des équipes, mise en place du règlement, gestion des inscriptions et communication sur les réseaux sociaux.</p>
+            <ul class="tags">
+              <li>Événementiel</li><li>Organisation</li><li>Fortnite</li><li>Communication</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Projet Z — Projet d'école en conditions réelles</h3>
+            <p>Projet mené comme en entreprise: conception, développement et stratégie de mise sur le marché d’un jeu vidéo, avec répartition des rôles, planning et livrables.</p>
+            <ul class="tags">
+              <li>Gestion de projet</li><li>Jeu vidéo</li><li>Produit</li><li>Équipe</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section" aria-label="Expérience professionnelle">
+      <div class="container">
+        <h2>Expérience professionnelle</h2>
+        <div class="experience-grid">
+          <article class="experience-card card reveal">
+            <header>
+              <h3>Stage d'observation de 3ᵉ — Novarchive</h3>
+              <p class="muted">Découverte des métiers | Durée: 1 semaine</p>
+            </header>
+            <p>Observation des processus de gestion d'archives et découverte du fonctionnement d'une entreprise spécialisée.</p>
+            <details>
+              <summary>En savoir plus sur Novarchive</summary>
+              <p>Novarchive est une société spécialisée dans l'archivage et la gestion documentaire pour les entreprises, proposant des solutions de conservation, numérisation et destruction sécurisée.</p>
+              <p><a href="https://www.novarchive.fr/" target="_blank" rel="noopener noreferrer">Site officiel — Novarchive</a></p>
+            </details>
+          </article>
+
+          <article class="experience-card card reveal">
+            <header>
+              <h3>Stage d'observation de Seconde — Enzo & Rosso</h3>
+              <p class="muted">Découverte des métiers | Durée: 1 semaine</p>
+            </header>
+            <p>Immersion au sein de l'agence d'architecture pour comprendre l'organisation interne et les missions quotidiennes.</p>
+            <details>
+              <summary>En savoir plus sur Enzo & Rosso</summary>
+              <p>Enzo & Rosso est une agence d’architecture fondée en 2000 à Muret par une architecte DPLG et un ingénieur de Centrale Paris. L’agence réunit des compétences pluridisciplinaires et intervient sur des projets publics et privés (culture, éducation, sport, industrie, tertiaire, santé, logement), avec une démarche sobre et fonctionnelle, attentive aux enjeux environnementaux et sociétaux, et une méthodologie de travail collaborative et rigoureuse.</p>
+              <p><a href="https://www.enzo-rosso.fr/" target="_blank" rel="noopener noreferrer">Site officiel — Enzo & Rosso</a></p>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section" aria-label="Compétences">
+      <div class="container">
+        <h2>Compétences</h2>
+        <div class="skills">
+          <div>
+            <h3>Langages de programmation</h3>
+            <ul class="tags">
+              <li>C</li><li>C#</li><li>Python</li><li>JavaScript</li><li>HTML</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Langues</h3>
+            <ul class="tags">
+              <li>Anglais — B2</li><li>Mandarin — A2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="qualites" class="section" aria-label="Qualités">
+      <div class="container">
+        <h2>Qualités</h2>
+        <ul class="qualities">
+          <li class="reveal"><strong>Rigueur</strong> — sens du détail et du travail bien fait.</li>
+          <li class="reveal"><strong>Esprit d'équipe</strong> — collaboration efficace et communication claire.</li>
+          <li class="reveal"><strong>Autonomie</strong> — capacité à apprendre et avancer seul.</li>
+          <li class="reveal"><strong>Curiosité</strong> — veille technologique et envie d'expérimenter.</li>
+          <li class="reveal"><strong>Résolution de problèmes</strong> — approche méthodique et créative.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="voyages" class="section" aria-label="Voyages">
+      <div class="container">
+        <h2>Voyages</h2>
+        <div class="travel-grid">
+          <figure class="travel-card reveal">
+            <img src="japon.jpg" alt="Japon">
+            <figcaption>Japon</figcaption>
+          </figure>
+          <figure class="travel-card reveal">
+            <img src="angleterre.jpg" alt="Angleterre">
+            <figcaption>Angleterre</figcaption>
+          </figure>
+          <figure class="travel-card reveal">
+            <img src="maurice.jpg" alt="Île Maurice">
+            <figcaption>Île Maurice</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-info card reveal" style="margin-bottom: 16px;">
+          <p>📞 <a href="tel:+33621000250">06 21 00 02 50</a></p>
+          <p>✉️ <a id="emailLink" href="mailto:jean-philippe.vonthron@epita.fr">jean-philippe.vonthron@epita.fr</a>
+            <button id="copyEmail" class="btn" type="button" style="margin-left: 8px;">Copier l'email</button>
+          </p>
+          <p id="copyStatus" class="muted" aria-live="polite" style="margin-top: 6px;"></p>
+          <a class="btn" href="https://www.instagram.com/jp.vonthron/" target="_blank" rel="noopener noreferrer" style="margin-top: 8px; display: inline-block;">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jean-Philippe VONTHRON — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Aperçu de l'image">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Fermer">✕</button>
+    <button id="lightboxPrev" class="lightbox-nav" aria-label="Précédent">‹</button>
+    <img id="lightboxImg" alt="Aperçu">
+    <button id="lightboxNext" class="lightbox-nav" aria-label="Suivant">›</button>
+    <p id="lightboxCaption" class="muted"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
