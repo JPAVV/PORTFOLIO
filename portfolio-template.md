@@ -1,7 +1,7 @@
 ---
 title: "Portfolio de compétences"
 author: "Jean-Philippe VONTHRON"
-date: "<Mois Année>"
+date: "2024-12-19"
 subtitle: "Étudiant EPITA — 2ᵉ année"
 geometry: margin=2.5cm
 fontsize: 11pt
@@ -15,7 +15,7 @@ fontsize: 11pt
 **Formation**: EPITA — 2ᵉ année (Prépa informatique)  
 **Année**: <Année académique>  
 **Encadrant**: <Nom de l'encadrant>  
-**Date**: <JJ/MM/AAAA>
+**Date**: 19/12/2024
 
 ![Photo de profil](jpp.jpg)
 
